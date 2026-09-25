@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Алгоритм — Медиацентр школы № 98</title>
+<meta name="description" content="Медиацентр «Алгоритм» школы № 98: новости, спорт, культура и анонсы школьной жизни.">
+<meta name="theme-color" content="#1e5fa8">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a class="logo" onclick="go('home'); return false;" href="#">
+    <img src="logo.png" alt="Алгоритм">
+    <span class="logo-text">Алгоритм</span>
+  </a>
+  <nav>
+    <a class="nav-link" onclick="filterAndScroll('Новости'); return false;" href="#">Новости</a>
+    <a class="nav-link" onclick="filterAndScroll('Спорт'); return false;" href="#">Спорт</a>
+    <a class="nav-link" onclick="filterAndScroll('Культура'); return false;" href="#">Культура</a>
+    <a class="nav-link" onclick="go('about'); return false;" href="#">О медиацентре</a>
+    <a class="nav-vk" href="https://vk.com/club241723323" target="_blank" rel="noopener">ВК</a>
+    <a class="cta" onclick="go('join'); return false;" href="#">Как к нам попасть</a>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<footer>
+  <p class="school">МАОУ Школа № 98</p>
+  <p>бульвар Авиаторов, 5</p>
+  <p>Тел: +7 (863) 210-30-10</p>
+  <p>Куратор: Юлия Дмитриевна</p>
+  <a class="vk-footer" href="https://vk.com/club241723323" target="_blank" rel="noopener">Мы во ВКонтакте →</a>
+  <p class="copy">© 2026 Алгоритм</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
